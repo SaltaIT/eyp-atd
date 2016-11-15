@@ -1,5 +1,8 @@
 class atd::params {
 
+  $package_name='at'
+  $service_name='atd'
+
   case $::osfamily
   {
     'redhat':

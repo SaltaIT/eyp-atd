@@ -15,7 +15,10 @@ class atd::service inherits atd {
   {
     if($atd::manage_service)
     {
-      #service or exec here
+      service { $atd::params::service_name:
+        ensure => $service_ensure,
+        enable => $service_enable,
+      }
     }
   }
 }
