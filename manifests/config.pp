@@ -4,4 +4,8 @@
 #
 class atd::config inherits atd {
 
+  file { '/etc/at.deny':
+    ensure => 'absent',
+  }
+
 }
