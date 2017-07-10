@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.1.3
+
+* added /etc/at.allow to make sure it exists even if the service is disabled
+
 ## 0.1.2
 
 * /etc/at.deny ensure absent

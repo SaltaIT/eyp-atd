@@ -8,4 +8,11 @@ class atd::config inherits atd {
     ensure => 'absent',
   }
 
+  file { '/etc/at.allow':
+    ensure => 'present',
+    owner  => 'root',
+    group  => 'root',
+    mode   => '0400',
+  }
+
 }
