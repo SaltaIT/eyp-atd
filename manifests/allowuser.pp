@@ -1,5 +1,5 @@
-# puppet2sitepp @atdallows
-define atd::allow($username = $name) {
+# puppet2sitepp @atdallowusers
+define atd::allowuser($username = $name) {
 
   concat::fragment{ "/etc/at.allow ${username}":
     target  => '/etc/at.allow',

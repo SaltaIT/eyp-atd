@@ -2,7 +2,7 @@
 
 ## 0.1.4
 
-* added **atd::allow**
+* added **atd::allowuser**
 
 ## 0.1.3
 
