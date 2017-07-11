@@ -8,7 +8,7 @@ class atd::config inherits atd {
     ensure => 'absent',
   }
 
-  file { '/etc/at.allow':
+  concat { '/etc/at.allow':
     ensure => 'present',
     owner  => 'root',
     group  => 'root',
