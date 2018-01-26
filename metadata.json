@@ -2,7 +2,7 @@
   "name": "eyp-atd",
   "version": "0.1.4",
   "author": "eyp",
-  "summary": "atd skel",
+  "summary": "atd service and at.allow management",
   "license": "Apache-2.0",
   "source": "https://github.com/NTTCom-MS/eyp-atd",
   "project_page": "https://github.com/NTTCom-MS/eyp-atd",
