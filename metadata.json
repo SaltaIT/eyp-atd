@@ -40,7 +40,7 @@
     {
       "operatingsystem": "Debian",
       "operatingsystemrelease": [ "10" ]
-    },
+    }
   ],
   "requirements": [
     {
