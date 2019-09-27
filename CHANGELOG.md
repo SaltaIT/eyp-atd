@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.1.5
+
+* added support for **RHEL 8**, **Ubuntu 18.04** and **Debian 10**
+
 ## 0.1.4
 
 * added **atd::allowuser**
